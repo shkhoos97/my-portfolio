@@ -1,0 +1,23 @@
+{
+  "name": "agro-ai-telegram-bot",
+  "version": "1.0.0",
+  "description": "Professional Telegram bot powered by AI for agriculture-focused support.",
+  "main": "src/bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/bot.js",
+    "check": "node --check src/bot.js && node --check src/aiClient.js && node --check src/config.js && node --check src/agroPrompt.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "ai",
+    "agriculture",
+    "agro"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.16.3"
+  }
+}
